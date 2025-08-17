@@ -1,11 +1,11 @@
 // The exported code uses Tailwind CSS. Install Tailwind CSS in your dev environment to ensure all styles work.
 import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, EffectFade, Autoplay } from 'swiper/modules';
+import { Pagination,  Autoplay } from 'swiper/modules';
 
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-fade';
+// import 'swiper/css';
+// import 'swiper/css/pagination';
+// import 'swiper/css/effect-fade';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -45,20 +45,7 @@ animation: scaleIn 0.5s ease-out;
 .animate-slideInRight {
 animation: slideInRight 0.5s ease-out;
 }
-.dark .dark\:bg-gray-900 {
-background-color: #111827;
-transition: background-color 0.3s ease;
-}
-.dark .dark\:text-gray-100 {
-color: #f3f4f6;
-transition: color 0.3s ease;
-}
-.dark .dark\:bg-gray-900 {
-background-color: #111827;
-}
-.dark .dark\:text-gray-100 {
-color: #f3f4f6;
-}
+
 `}</style>
 );
 const App: React.FC = () => {
