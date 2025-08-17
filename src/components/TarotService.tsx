@@ -306,7 +306,7 @@ const App: React.FC = () => {
                   </div>
                   <div className="flex items-center justify-center md:justify-start">
                     <i className="fas fa-phone-alt mr-2"></i>
-                    <p>+1 (555) 123-4567</p>
+                    <p>+91 92891 22718</p>
                   </div>
                 </div>
                 <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-xl   shadow-lg hover:shadow-xl transition-all rounded-button cursor-pointer whitespace-nowrap">
@@ -407,7 +407,7 @@ const App: React.FC = () => {
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <i className="fas fa-phone-alt mr-2 text-amber-400"></i>
-                  <span>+1 (555) 123-4567</span>
+                  <span>+91 92891 22718</span>
                 </li>
                 <li className="flex items-center">
                   <i className="fas fa-envelope mr-2 text-amber-400"></i>

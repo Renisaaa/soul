@@ -952,11 +952,11 @@ aria-label="Toggle theme"
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <i className="fa-brands fa-whatsapp text-green-500 mr-3 mt-1"></i>
-                  <span className="text-gray-400">+1 (234) 567-890</span>
+                  <span className="text-gray-400">+91 92891 22718</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fa-solid fa-envelope text-amber-500 mr-3 mt-1"></i>
-                  <span className="text-gray-400">contact@chhavitarot.com</span>
+                  <span className="text-gray-400">piyushgoel@gmail.com</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fa-solid fa-location-dot text-purple-500 mr-3 mt-1"></i>
