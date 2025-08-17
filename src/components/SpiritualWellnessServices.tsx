@@ -952,7 +952,7 @@ aria-label="Toggle theme"
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <i className="fa-brands fa-whatsapp text-green-500 mr-3 mt-1"></i>
-                  <span className="text-gray-400">+91 92891 22718</span>
+                  <span className="text-gray-400">+91 7303368233</span>
                 </li>
                 <li className="flex items-start">
                   <i className="fa-solid fa-envelope text-amber-500 mr-3 mt-1"></i>
