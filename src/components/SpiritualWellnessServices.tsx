@@ -15,16 +15,13 @@ import spiritualRemedies from "../assets/spiritual-remedies.jpg"
 
 
 
-import "swiper/css";
-import "swiper/css/pagination";
+// import "swiper/css";
+// import "swiper/css/pagination";
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
-  const [isDarkMode, setIsDarkMode] = useState(false);
   const testimonialChartRef = useRef<HTMLDivElement>(null);
-  const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode);
-  };
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
@@ -225,13 +222,13 @@ const App: React.FC = () => {
   return (
     <div
       className={`font-['Cormorant_Garamond',_serif] ${
-        isDarkMode ? "bg-gray-900 text-gray-100" : "bg-white text-gray-800"
+      "bg-white text-gray-800"
       } overflow-x-hidden transition-colors duration-300`}
     >
       {/* Header */}
       <header
         className={`fixed w-full ${
-          isDarkMode ? "bg-gray-900 bg-opacity-95" : "bg-white bg-opacity-95"
+       "bg-white bg-opacity-95"
         } shadow-md z-50 transition-all duration-300`}
       >
         <div className="container mx-auto px-4 py-3 flex justify-between items-center relative">
@@ -439,7 +436,7 @@ aria-label="Toggle theme"
       {/* About Section */}
       <section
         id="about"
-        className={`py-20 ${isDarkMode ? "bg-gray-900" : "bg-white"}`}
+        className={`py-20 ${ "bg-white"}`}
       >
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -532,7 +529,7 @@ aria-label="Toggle theme"
       {/* Process Section */}
       <section
         id="process"
-        className={`py-20 ${isDarkMode ? "bg-gray-800" : "bg-purple-50"}`}
+        className={`py-20 ${"bg-purple-50"}`}
       >
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -609,7 +606,7 @@ aria-label="Toggle theme"
                   <SwiperSlide key={testimonial.id}>
                     <div
                       className={`${
-                        isDarkMode ? "bg-gray-800" : "bg-purple-50"
+                        "bg-purple-50"
                       } rounded-xl p-8 shadow-md`}
                     >
                       <div className="flex items-center mb-4">
@@ -648,7 +645,7 @@ aria-label="Toggle theme"
             <div>
               <div
                 className={`${
-                  isDarkMode ? "bg-gray-800" : "bg-white"
+                "bg-white"
                 } rounded-xl p-6 shadow-md`}
               >
                 <h3 className="text-2xl font-semibold mb-6 text-purple-800 text-center">
