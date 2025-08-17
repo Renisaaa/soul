@@ -15,8 +15,8 @@ import spiritualRemedies from "../assets/spiritual-remedies.jpg"
 
 
 
-// import "swiper/css";
-// import "swiper/css/pagination";
+import "swiper/css";
+import "swiper/css/pagination";
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");

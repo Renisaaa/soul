@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination,  Autoplay } from 'swiper/modules';
 
-// import 'swiper/css';
-// import 'swiper/css/pagination';
-// import 'swiper/css/effect-fade';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -367,7 +367,7 @@ image: "https://readdy.ai/api/search-image?query=Professional%20headshot%20portr
 </div>
 <div className="flex items-center justify-center md:justify-start">
 <i className="fas fa-phone-alt mr-2"></i>
-<p>+91 92891 22718</p>
+<p>+1 (555) 123-4567</p>
 </div>
 </div>
 <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-xl   shadow-lg hover:shadow-xl transition-all rounded-button cursor-pointer whitespace-nowrap">
@@ -461,7 +461,7 @@ Subscribe
 <ul className="space-y-2">
 <li className="flex items-center">
 <i className="fas fa-phone-alt mr-2 text-amber-400"></i>
-<span>+91 92891 22718</span>
+<span>+1 (555) 123-4567</span>
 </li>
 <li className="flex items-center">
 <i className="fas fa-envelope mr-2 text-amber-400"></i>
