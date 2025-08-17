@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 4️⃣  Import the heading font */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap');
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+/* 5️⃣  Fade‑in delay helpers (so you don’t need underscores) */
+@layer utilities {
+  .animate-delay-300 { animation-delay: .3s; }
+  .animate-delay-600 { animation-delay: .6s; }
+  .animate-delay-900 { animation-delay: .9s; }
+}
