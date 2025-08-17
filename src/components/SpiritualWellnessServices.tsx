@@ -1018,7 +1018,7 @@ aria-label="Toggle theme"
       >
         <i className="fa-brands fa-whatsapp text-3xl"></i>
       </a>
-      <style jsx>{`
+      <style >{`
         @keyframes fadeIn {
           from {
             opacity: 0;
