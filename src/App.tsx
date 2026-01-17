@@ -1,7 +1,7 @@
 // src/App.tsx
 
 function App() {
-  return <div></div>;
+  return <p></p>;
 }
 
 export default App;
